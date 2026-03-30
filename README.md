@@ -1,6 +1,9 @@
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+這組程式用來說明 Expo 導覽的功能，包含跳頁的連結以及底部的Tab頁籤
+請參考
+https://docs.expo.dev/tutorial/add-navigation/ (https://docs.expo.dev/tutorial/add-navigation/)
 
 ## Get started
 
