@@ -26,10 +26,16 @@ export default function Index() {
         });
       }} />
       {/* 用button加dynamic navigation的方式帶參數前往關於頁面 */}
-      <Button title="帶參數前往關於頁面" onPress={() => {
+      <Button title="帶參數換頁(John)" onPress={() => {
         route.navigate({
-          pathname: "/(tabs)/[id]",
-          params: { id: "hello-101" }
+          pathname: "/[id]",
+          params: { id: "John" }
+        });
+      }} />
+      <Button title="帶參數換頁(Jane)" onPress={() => {
+        route.navigate({
+          pathname: "/[id]",
+          params: { id: "Jane" }
         });
       }} />
     </View>
